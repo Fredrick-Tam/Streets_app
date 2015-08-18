@@ -1,5 +1,7 @@
-* {box-sizing:border-box;}
-body {background-color: white;}
+* {box-sizing:border-box;
+width: 100%;}
+body {background-color: white;
+width: 100%;}
 
 .bgimg {
     position:fixed;
@@ -10,15 +12,18 @@ body {background-color: white;}
     opacity:1;
 }
 
+
+
 .greeting {
     color:black;
     text-shadow: 1px 1px 3px rgba(255,255,255, .5);
     text-align: center;
+    width: 100%;
 }
 
 .wikipedia-container {
     float:right;
-    width:290px;
+    width:50%;
     padding:10px;
     margin-right: 10px;
     background-color: rgba(255,255,255,0.7);
@@ -28,6 +33,7 @@ body {background-color: white;}
     padding: 10px;
     margin-right:300px;
     background-color: rgba(255,255,255,0.7);
+    width: 50%;
 }
 
 .article-list {
